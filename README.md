@@ -1,16 +1,16 @@
 # PotWise
 
-# 🔧 Environment Setup Guide
+# 🔧 Setup Guide
 
 To ensure smooth operation of this project, we recommend creating a clean `conda` virtual environment.
 
-## 1️⃣ Create a Conda Environment (Python 3.9)
+## 1 Create a Conda Environment (Python 3.9)
 
 ```bash
 conda create -n yoloenv python=3.9
 ```
 
-## 2️⃣ Activate the Environment
+## 2 Activate the Environment
 
 ```bash
 conda activate yoloenv
@@ -29,7 +29,7 @@ For faster performance, check your system's CUDA version and install the corresp
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3 Install Dependencies
 
 Once the environment is active, install the necessary packages:
 
@@ -39,6 +39,19 @@ pip install ultralytics
 
 ---
 
-✅ That’s it! Your environment is now ready to run YOLO-based models using the [Ultralytics](https://github.com/ultralytics/ultralytics) library.
+## 4 Data
 
-For more usage instructions, refer to the official documentation or continue below in this repository.
+All data we used can be found in YOLO/data, containing 32 kinds of ingredients in total.
+
+---
+
+✅ That’s it! Your are now ready to run YOLO-based models using the [Ultralytics](https://github.com/ultralytics/ultralytics) library.
+
+# 🚀 Run
+
+To run the bot locally, you can run Telegram Bot/Bot.py
+
+# Example Output
+
+![image](https://github.com/user-attachments/assets/0dd5b570-51b1-4c37-a9d8-33d14e215fe7)
+
