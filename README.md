@@ -53,5 +53,6 @@ To run the bot locally, you can run Telegram Bot/Bot.py
 
 # Example Output
 
-![image](https://github.com/user-attachments/assets/0dd5b570-51b1-4c37-a9d8-33d14e215fe7)
+<img src="https://github.com/user-attachments/assets/0dd5b570-51b1-4c37-a9d8-33d14e215fe7" width="400"/>
+
 
