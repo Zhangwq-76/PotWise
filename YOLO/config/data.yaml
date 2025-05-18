@@ -1,0 +1,10 @@
+train: C:\Users\12821\Desktop\PotWise\YOLO\data\images\train
+val: C:\Users\12821\Desktop\PotWise\YOLO\data\images\val
+
+nc: 32
+names: [
+  'meat_slice', 'beef_tripe', 'cabbage', 'tofu', 'throat_cartilage', 'beancurd_sheet', 'brain', 'fish_slice',
+  'fresh_shrimp', 'glass_noodle', 'soybean_roll', 'wax_gourd', 'cuttlefish', 'potato_slice', 'scallop', 'spam',
+  'beef_ball', 'corn', 'crab_stick', 'frozen_tofu', 'mushroom', 'needle_mushroom', 'quail_egg', 'shrimp_paste',
+  'beef_tongue', 'blood_curd', 'crown_daisy', 'duck_intestine', 'fish_ball', 'lettuce', 'tender_beef', 'tribulus_vegetable'
+]

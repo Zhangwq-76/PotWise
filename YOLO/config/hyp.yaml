@@ -1,0 +1,28 @@
+# YOLOv8n 模型训练的超参数设置
+
+# 基本参数
+lr0: 0.01  # 初始学习率
+lrf: 0.1  # 最终学习率
+momentum: 0.937  # SGD 优化器的动量
+weight_decay: 0.0005  # 权重衰减
+warmup_epochs: 3  # 预热的轮次
+warmup_momentum: 0.8  # 预热期间的动量
+warmup_bias_lr: 0.1  # 预热期间的偏置学习率
+
+# 边框参数
+box: 0.05  # 边框坐标损失权重
+cls: 0.5  # 类别预测损失权重
+cls_pw: 1.0  # 类别损失正权重
+obj: 1.0  # 目标分数损失权重
+obj_pw: 1.0  # 目标损失正权重
+iou_t: 0.20  # 目标损失的 IOU 阈值
+anchor_t: 4.0  # 锚框匹配阈值
+
+# 翻转和数据增强参数
+hsv_h: 0.015  # HSV 色调增强
+hsv_s: 0.7  # HSV 饱和度增强
+hsv_v: 0.4  # HSV 明度增强
+degrees: 0.0  # 旋转角度增强
+translate: 0.1  # 平移增强
+scale: 0.5  # 缩放增强
+shear: 0.0  # 剪切增强
