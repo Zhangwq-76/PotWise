@@ -140,7 +140,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     os.remove(temp_path)
 
 async def main():
-    TOKEN = "7881685894:AAFYvj03v8YAl5mruQwEGG2kWZH5D04FkaA"
+    TOKEN = "Your own bot token"
     application = ApplicationBuilder().token(TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
