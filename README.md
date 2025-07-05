@@ -1,6 +1,6 @@
 # PotWise
 
-# 🔧 Setup Guide
+#  Setup Guide
 
 To ensure smooth operation of this project, we recommend creating a clean `conda` virtual environment.
 
@@ -18,11 +18,11 @@ conda activate yoloenv
 
 ---
 
-## ⚡ (Optional) Enable GPU Acceleration
+##  (Optional) Enable GPU Acceleration
 
 For faster performance, check your system's CUDA version and install the corresponding PyTorch build from the [official PyTorch website](https://pytorch.org/).
 
-> 💡 If your CUDA version is not listed on the PyTorch site, you can download it directly from the [NVIDIA CUDA Toolkit page](https://developer.nvidia.com/cuda-downloads).  
+>  If your CUDA version is not listed on the PyTorch site, you can download it directly from the [NVIDIA CUDA Toolkit page](https://developer.nvidia.com/cuda-downloads).  
 > Currently supported versions include: **CUDA 11.8, 12.4, and 12.6**
 
 **Note:** If you plan to use CPU only, you can skip this step.
@@ -45,7 +45,7 @@ All data we used can be found in YOLO/data, containing 32 kinds of ingredients i
 
 ---
 
-✅ That’s it! Your are now ready to run YOLO-based models using the [Ultralytics](https://github.com/ultralytics/ultralytics) library.
+Your are now ready to run YOLO-based models using the [Ultralytics](https://github.com/ultralytics/ultralytics) library.
 
 # 🚀 Run
 
